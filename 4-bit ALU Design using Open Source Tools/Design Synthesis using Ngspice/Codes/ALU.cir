@@ -1,0 +1,282 @@
+Q1.include TSMC_180nm.txt
+
+.param LAMBDA = 0.18u
+
+.param wn1 = {10*LAMBDA}
+.param wn2 = {10*LAMBDA}
+.param ln1 = {2*LAMBDA}
+.param ln2 = {2*LAMBDA}
+
+.param wp1 = wn1
+.param wp2 = wn1
+.param lp1 = {LAMBDA}
+.param lp2 = {LAMBDA}
+
+.SUBCKT and1 2 4 6
+
+vdd 1 0 dc 2
+
+mn1 3 2 5 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn2 5 4 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn3 6 3 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+
+mp1 3 2 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp2 3 4 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp3 6 3 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+
+.ends
+
+.SUBCKT and_4_inp 2 4 6 8 10
+
+vdd 1 0 dc 2
+
+mn1 3 2 5 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn2 5 4 7 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn3 7 6 9 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn4 9 8 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn5 10 3 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+
+mp1 3 2 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp2 3 4 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp3 3 6 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp4 3 8 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp5 10 3 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+
+.ends
+
+.SUBCKT and_3_inp 2 4 6 10
+
+vdd 1 0 dc 2
+
+mn1 3 2 5 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn2 5 4 7 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn3 7 6 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn4 10 3 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+
+mp1 3 2 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp2 3 4 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp3 3 6 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp4 10 3 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+
+.ends
+
+.SUBCKT or_4_inp 2 4 6 8 10
+
+vdd 1 0 dc 2
+
+mn1 3 2 5 1 CMOSP  W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn2 5 4 7 1 CMOSP W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn3 7 6 9 1 CMOSP W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn4 9 8 1 1 CMOSP W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn5 10 3 1 1 CMOSP W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+
+mp1 3 2 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mp2 3 4 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mp3 3 6 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mp4 3 8 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mp5 10 3 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+
+.ends
+
+.SUBCKT or1 2 4 6
+
+vdd 1 0 dc 2
+
+mn1 3 2 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn2 3 4 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+mn3 6 3 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+
+mp1 3 4 5 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp2 5 2 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+mp3 6 3 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+
+.ends
+
+.SUBCKT not 2 3
+
+vdd 1 0 dc 2
+
+Mpa 3 2 1 1 CMOSP W = {wp1} L = {lp1}
+    + AS = {5*wp1*LAMBDA} PS = {10*LAMBDA + 2*wp1} AD = {5*wp1*LAMBDA} PD = {10*LAMBDA + 2*wp1}
+Mna 3 2 0 0 CMOSN W = {wn2} L = {ln2}
+    + AS = {5*wn2*LAMBDA} PS = {10*LAMBDA + 2*wn2} AD = {5*wn2*LAMBDA} PD = {10*LAMBDA + 2*wn2}
+
+.ends
+
+.SUBCKT xor1 2 4 9
+
+X1 2 5 not
+X2 4 6 not
+X3 5 4 7 and1
+X4 6 2 8 and1
+X5 7 8 9 or1
+
+.ends
+
+.SUBCKT adder_subtractor 2 4 3 5 9 11
+
+X0 4 5 12 xor1
+X1 2 12 7 xor1
+X2 2 12 8 and1
+X3 7 3 9 xor1
+X4 7 3 10 and1
+X5 10 8 11 or1
+
+.ends
+
+.SUBCKT comparator 2 4 6 9 10
+
+X1 2 4 5 xor1
+X2 5 6 not
+X3 2 7 not
+X4 4 8 not
+X5 2 8 9 and1
+X6 4 7 10 and1
+
+.ends
+
+.SUBCKT mux 5 6 13 14 15 16 
+
+X1 5 11 not
+X2 6 12 not
+X3 11 12 13 and1
+X4 11 6 14 and1
+X5 5 12 15 and1
+X6 5 6 16 and1
+
+.ends
+
+.SUBCKT input_enable 20 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+
+X1 2 20 10 and1
+X2 3 20 11 and1
+X3 4 20 12 and1
+X4 5 20 13 and1
+X5 6 20 14 and1
+X6 7 20 15 and1
+X7 8 20 16 and1
+X8 9 20 17 and1
+
+.ends
+
+vdd 1 0 dc 2
+
+vs1 2 0 dc 0
+vs0 3 0 dc 2
+va0 4 0 dc 2
+va1 5 0 dc 0 
+va2 6 0 dc 0
+va3 7 0 dc 2
+vb0 8 0 dc 0
+vb1 9 0 dc 0
+vb2 10 0 dc 2
+vb3 11 0 dc 2
+
+X27 2 93 not
+X28 3 94 not
+X1 2 3 12 13 14 15 mux
+
+X3 93 4 5 6 7 8 9 10 11 25 26 27 28 29 30 31 32 input_enable
+X4 14 4 5 6 7 8 9 10 11 33 34 35 36 37 38 39 40 input_enable
+X5 15 4 5 6 7 8 9 10 11 41 42 43 44 45 46 47 48 input_enable
+
+X6 25 29 13 13 49 53 adder_subtractor
+X7 26 30 53 13 50 54 adder_subtractor
+X8 27 31 54 13 51 55 adder_subtractor
+X9 28 32 55 13 52 56 adder_subtractor
+
+X10 33 37 57 61 65 comparator
+X11 34 38 58 62 66 comparator
+X12 35 39 59 63 67 comparator
+X13 36 40 60 64 68 comparator
+
+X14 57 58 59 60 90 and_4_inp
+X29 90 94 2 95 and_3_inp
+
+X15 60 63 69 and1
+X16 60 59 62 70 and_3_inp
+X17 60 59 58 61 71 and_4_inp
+X18 64 69 70 71 72 or_4_inp
+
+X19 60 67 73 and1
+X20 60 59 66 74 and_3_inp
+X21 60 59 58 65 75 and_4_inp
+X22 68 73 74 75 76 or_4_inp
+
+X23 41 45 77 and1 
+X24 42 46 78 and1
+X25 43 47 79 and1
+X26 44 48 80 and1
+
+.tran 0.1u 400u
+
+.control
+run
+
+.print 
+
+*plot V(4) V(8)+2.2 V(49)+4.4
+*plot V(5) V(9)+2.2 V(50)+4.4
+*plot V(6) V(10)+2.2 V(51)+4.4
+*plot V(8) V(11)+2.2 V(52)+4.4
+*plot V(56)
+
+plot V(49) V(50)
+plot V(51) V(52)
+plot V(53) V(54)
+plot V(55) V(56)
+
+*plot V(4) V(8)+2.2
+*plot V(5) V(9)+2.2
+*plot V(6) V(10)+2.2
+*plot V(7) V(11)+2.2
+*plot V(95) V(72)+2.2 V(76)+4.4
+
+*plot V(77) V(4)+2.2 V(8) +4.4
+*plot V(78) V(5)+2.2 V(9)+4.4
+*plot V(79) V(6)+2.2 V(10)+4.4
+*plot V(80) V(7)+2.2 V(11)+4.4
+
+.endc
+.end
+

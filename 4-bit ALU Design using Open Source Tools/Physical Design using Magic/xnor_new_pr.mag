@@ -1,0 +1,29 @@
+magic
+tech scmos
+timestamp 1699687711
+<< metal1 >>
+rect 309 280 483 285
+rect 478 156 483 280
+rect 453 138 469 139
+rect 453 134 481 138
+rect 500 134 518 137
+rect -20 130 -1 133
+rect -20 110 2 115
+rect 492 3 497 122
+rect 193 -2 497 3
+<< m2contact >>
+rect 353 137 358 142
+rect 448 134 453 139
+<< metal2 >>
+rect 358 139 445 142
+rect 358 137 448 139
+rect 440 134 448 137
+use inverter_unlab_pr  inverter_unlab_pr_0
+timestamp 1698601567
+transform 1 0 487 0 1 139
+box -9 -20 16 20
+use xor_pr_new  xor_pr_new_0
+timestamp 1699687233
+transform 1 0 26 0 1 95
+box -30 -97 355 193
+<< end >>

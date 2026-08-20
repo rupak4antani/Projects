@@ -1,0 +1,21 @@
+magic
+tech scmos
+timestamp 1699470071
+<< metal1 >>
+rect -18 78 24 83
+rect -18 36 1 41
+rect 19 38 24 78
+rect -4 20 1 36
+rect -4 15 13 20
+rect -18 4 5 7
+rect -18 2 15 4
+rect 0 -1 15 2
+use nand_unlab_pr  nand_unlab_pr_0
+timestamp 1698758481
+transform 1 0 -33 0 1 53
+box -24 -51 28 30
+use inverter_unlab_pr  inverter_unlab_pr_0
+timestamp 1698601567
+transform 1 0 20 0 1 20
+box -9 -20 16 20
+<< end >>

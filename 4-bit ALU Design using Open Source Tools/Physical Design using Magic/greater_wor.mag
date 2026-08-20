@@ -1,0 +1,151 @@
+magic
+tech scmos
+timestamp 1699862073
+<< metal1 >>
+rect -163 171 32 174
+rect -192 150 -182 153
+rect -205 134 -182 137
+rect -205 63 -202 134
+rect -148 98 -145 171
+rect -164 95 -145 98
+rect -190 75 -182 78
+rect -205 60 -182 63
+rect -205 -14 -202 60
+rect -148 22 -145 95
+rect 29 79 32 171
+rect 64 77 162 82
+rect -73 74 -21 77
+rect -24 38 -21 74
+rect 157 76 162 77
+rect 157 71 171 76
+rect 314 71 518 76
+rect 513 59 518 71
+rect 598 73 747 77
+rect 598 58 602 73
+rect 743 54 747 73
+rect 902 54 955 57
+rect 1122 54 1175 57
+rect -24 35 2 38
+rect 333 35 339 38
+rect -14 27 5 32
+rect -169 19 -145 22
+rect -189 0 -182 3
+rect -205 -17 -181 -14
+rect -205 -88 -202 -17
+rect -148 -51 -145 19
+rect 143 13 159 18
+rect -167 -54 -145 -51
+rect -189 -75 -182 -72
+rect 28 -88 31 5
+rect 208 -1 211 15
+rect 260 0 263 15
+rect 306 -88 309 3
+rect 336 -42 339 35
+rect 415 12 422 16
+rect 459 12 465 16
+rect 502 12 508 16
+rect 544 12 551 16
+rect 415 11 419 12
+rect 336 -45 571 -42
+rect 594 -88 597 10
+rect 621 -53 624 31
+rect 901 26 909 29
+rect 700 10 711 14
+rect 700 9 706 10
+rect 744 8 745 9
+rect 777 8 778 10
+rect 810 8 811 10
+rect 843 8 844 9
+rect 744 3 747 8
+rect 777 1 780 8
+rect 810 2 813 8
+rect 843 2 846 8
+rect 621 -56 860 -53
+rect 878 -88 881 9
+rect 906 -63 909 26
+rect 952 5 955 54
+rect 975 40 978 41
+rect 975 36 980 40
+rect 1125 36 1148 40
+rect 1041 32 1044 36
+rect 1041 31 1043 32
+rect 1075 31 1076 35
+rect 1105 5 1108 18
+rect 952 2 1108 5
+rect 1076 -12 1078 -9
+rect 1075 -63 1078 -12
+rect 906 -66 1078 -63
+rect 1172 -88 1175 54
+rect -205 -91 -180 -88
+rect -163 -91 1175 -88
+<< m2contact >>
+rect -165 148 -160 153
+rect -165 73 -160 78
+rect -79 73 -73 78
+rect -165 -2 -160 3
+rect 138 13 143 18
+rect -165 -77 -160 -72
+rect 410 11 415 16
+rect 695 9 700 14
+<< metal2 >>
+rect -160 148 -123 153
+rect -128 98 -123 148
+rect -128 93 700 98
+rect -160 73 -79 78
+rect -160 -2 -35 3
+rect -40 -8 -35 -2
+rect 138 -8 143 13
+rect -40 -13 143 -8
+rect 410 -21 415 11
+rect 695 14 700 93
+rect 695 8 700 9
+rect -118 -26 415 -21
+rect -118 -72 -113 -26
+rect -160 -77 -113 -72
+<< m123contact >>
+rect 77 13 82 18
+rect 970 36 975 41
+rect 1005 33 1010 38
+rect 1036 31 1041 36
+rect 1070 31 1075 36
+rect 1070 -12 1076 -7
+rect 571 -47 577 -42
+rect 860 -58 867 -53
+<< metal3 >>
+rect 970 41 975 43
+rect 82 13 91 18
+rect 86 -29 91 13
+rect 970 -29 975 36
+rect 86 -34 975 -29
+rect 1005 -42 1010 33
+rect 577 -47 1010 -42
+rect 1036 -53 1041 31
+rect 1070 -3 1074 31
+rect 1070 -7 1075 -3
+rect 867 -58 1041 -53
+use and_2_pr  and_2_pr_0
+timestamp 1699470071
+transform 1 0 46 0 1 -1
+box -57 -1 36 83
+use and_4_pr  and_4_pr_0
+timestamp 1699624804
+transform 1 0 458 0 1 39
+box -39 -34 166 23
+use and_5_pr  and_5_pr_0
+timestamp 1699693864
+transform 1 0 749 0 1 36
+box -42 -30 156 21
+use and_3_pr  and_3_pr_0
+timestamp 1699619098
+transform 1 0 222 0 1 42
+box -68 -42 114 34
+use inverter_unlab_pr  inverter_unlab_pr_0
+array 0 0 50 0 3 75
+timestamp 1698601567
+transform 1 0 -176 0 1 -71
+box -9 -20 16 20
+use or_4_pr  or_4_pr_0
+timestamp 1699625065
+transform 1 0 1021 0 1 32
+box -44 -25 113 25
+<< end >>

@@ -1,0 +1,150 @@
+magic
+tech scmos
+timestamp 1699624804
+<< nwell >>
+rect -30 -6 -8 19
+rect 13 -6 35 19
+rect 56 -6 78 19
+rect 99 -6 121 19
+<< ntransistor >>
+rect -23 -25 -16 -22
+rect 20 -25 27 -22
+rect 63 -25 70 -22
+rect 106 -25 113 -22
+<< ptransistor >>
+rect -23 5 -15 8
+rect 20 5 28 8
+rect 63 5 71 8
+rect 106 5 114 8
+<< ndiffusion >>
+rect -23 -21 -22 -16
+rect -17 -21 -16 -16
+rect -23 -22 -16 -21
+rect 20 -21 21 -16
+rect 26 -21 27 -16
+rect 20 -22 27 -21
+rect 63 -21 64 -16
+rect 69 -21 70 -16
+rect 63 -22 70 -21
+rect 106 -21 107 -16
+rect 112 -21 113 -16
+rect 106 -22 113 -21
+rect -23 -26 -16 -25
+rect -23 -30 -22 -26
+rect -17 -30 -16 -26
+rect 20 -26 27 -25
+rect 20 -30 21 -26
+rect 26 -30 27 -26
+rect 63 -26 70 -25
+rect 63 -30 64 -26
+rect 69 -30 70 -26
+rect 106 -26 113 -25
+rect 106 -30 107 -26
+rect 112 -30 113 -26
+<< pdiffusion >>
+rect -23 9 -22 13
+rect -17 9 -15 13
+rect -23 8 -15 9
+rect 20 9 21 13
+rect 26 9 28 13
+rect 20 8 28 9
+rect 63 9 64 13
+rect 69 9 71 13
+rect 63 8 71 9
+rect 106 9 107 13
+rect 112 9 114 13
+rect 106 8 114 9
+rect -23 4 -15 5
+rect -23 0 -22 4
+rect -17 0 -15 4
+rect 20 4 28 5
+rect 20 0 21 4
+rect 26 0 28 4
+rect 63 4 71 5
+rect 63 0 64 4
+rect 69 0 71 4
+rect 106 4 114 5
+rect 106 0 107 4
+rect 112 0 114 4
+<< ndcontact >>
+rect -22 -21 -17 -16
+rect 21 -21 26 -16
+rect 64 -21 69 -16
+rect 107 -21 112 -16
+rect -22 -30 -17 -26
+rect 21 -30 26 -26
+rect 64 -30 69 -26
+rect 107 -30 112 -26
+<< pdcontact >>
+rect -22 9 -17 13
+rect 21 9 26 13
+rect 64 9 69 13
+rect 107 9 112 13
+rect -22 0 -17 4
+rect 21 0 26 4
+rect 64 0 69 4
+rect 107 0 112 4
+<< polysilicon >>
+rect -34 5 -23 8
+rect -15 5 -8 8
+rect 9 5 20 8
+rect 28 5 35 8
+rect 52 5 63 8
+rect 71 5 78 8
+rect 95 5 106 8
+rect 114 5 121 8
+rect -34 -22 -31 5
+rect 9 -22 12 5
+rect 52 -22 55 5
+rect 95 -22 98 5
+rect -34 -23 -23 -22
+rect -31 -25 -23 -23
+rect -16 -25 -13 -22
+rect 9 -23 20 -22
+rect 12 -25 20 -23
+rect 27 -25 30 -22
+rect 52 -23 63 -22
+rect 55 -25 63 -23
+rect 70 -25 73 -22
+rect 95 -23 106 -22
+rect 98 -25 106 -23
+rect 113 -25 116 -22
+<< polycontact >>
+rect -36 -27 -31 -23
+rect 7 -27 12 -23
+rect 50 -27 55 -23
+rect 93 -27 98 -23
+<< metal1 >>
+rect -30 19 145 23
+rect -22 13 -17 19
+rect 21 13 26 19
+rect 64 13 69 19
+rect 107 13 112 19
+rect 141 12 145 19
+rect -22 -6 -17 0
+rect 21 -6 26 0
+rect 64 -6 69 0
+rect 107 -6 112 0
+rect -22 -11 136 -6
+rect 155 -11 166 -8
+rect -22 -16 -17 -11
+rect -7 -20 21 -16
+rect -39 -27 -36 -23
+rect -7 -30 -3 -20
+rect 35 -20 64 -16
+rect 4 -27 7 -23
+rect -22 -34 -3 -30
+rect 35 -30 39 -20
+rect 78 -20 107 -16
+rect 47 -27 50 -23
+rect 21 -34 39 -30
+rect 78 -30 82 -20
+rect 90 -27 93 -23
+rect 64 -34 82 -30
+rect 144 -30 148 -24
+rect 107 -34 148 -30
+use inverter_unlab_pr  inverter_unlab_pr_0 /home/rupakantani
+timestamp 1698601567
+transform 1 0 142 0 1 -6
+box -9 -20 16 20
+<< end >>

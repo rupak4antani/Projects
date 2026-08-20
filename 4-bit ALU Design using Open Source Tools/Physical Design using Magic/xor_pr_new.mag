@@ -1,0 +1,71 @@
+magic
+tech scmos
+timestamp 1699687233
+<< metal1 >>
+rect 19 189 150 193
+rect -30 35 -27 144
+rect 19 74 23 189
+rect 163 186 288 191
+rect 98 144 99 149
+rect 105 144 138 149
+rect 163 144 240 149
+rect 113 135 139 140
+rect 113 36 118 135
+rect -30 32 7 35
+rect 32 31 80 36
+rect 85 31 118 36
+rect -29 23 9 28
+rect -29 -65 -24 23
+rect 147 2 152 115
+rect 235 47 240 144
+rect 283 94 288 186
+rect 283 89 355 94
+rect 283 86 288 89
+rect 235 42 276 47
+rect 300 42 332 47
+rect 257 34 277 39
+rect 289 2 294 13
+rect 18 -88 23 2
+rect 32 -3 294 2
+rect 350 -16 355 89
+rect 168 -21 355 -16
+rect 115 -63 143 -58
+rect 168 -64 250 -59
+rect 128 -71 145 -66
+rect 93 -76 133 -71
+rect 18 -93 141 -88
+<< m2contact >>
+rect -30 144 -25 149
+rect 99 144 105 149
+rect 80 31 85 36
+rect 250 34 257 39
+rect -29 -70 -24 -65
+rect 109 -63 115 -58
+rect 250 -65 257 -59
+rect 88 -76 93 -71
+<< metal2 >>
+rect -25 144 99 149
+rect 80 -58 85 31
+rect 80 -63 109 -58
+rect 250 -59 257 34
+rect -24 -70 58 -65
+rect 53 -71 58 -70
+rect 53 -76 88 -71
+rect 93 -76 95 -71
+use nand_unlab_pr  nand_unlab_pr_3
+timestamp 1698758481
+transform 1 0 285 0 1 59
+box -24 -51 28 30
+use nand_unlab_pr  nand_unlab_pr_2
+timestamp 1698758481
+transform 1 0 153 0 1 -46
+box -24 -51 28 30
+use nand_unlab_pr  nand_unlab_pr_1
+timestamp 1698758481
+transform 1 0 148 0 1 161
+box -24 -51 28 30
+use nand_unlab_pr  nand_unlab_pr_0
+timestamp 1698758481
+transform 1 0 17 0 1 48
+box -24 -51 28 30
+<< end >>

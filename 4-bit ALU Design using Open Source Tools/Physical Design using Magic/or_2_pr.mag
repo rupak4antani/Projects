@@ -1,0 +1,109 @@
+magic
+tech scmos
+timestamp 1699868627
+<< nwell >>
+rect -29 -28 -11 -1
+rect 10 -28 28 -1
+rect 46 -28 64 -1
+<< ntransistor >>
+rect -23 13 -17 16
+rect 16 13 22 16
+rect 52 13 58 16
+<< ptransistor >>
+rect -23 -15 -17 -12
+rect 16 -15 22 -12
+rect 52 -15 58 -12
+<< ndiffusion >>
+rect -23 17 -22 21
+rect -18 17 -17 21
+rect -23 16 -17 17
+rect 16 17 17 21
+rect 21 17 22 21
+rect 16 16 22 17
+rect 52 17 53 21
+rect 57 17 58 21
+rect 52 16 58 17
+rect -23 12 -17 13
+rect -23 8 -22 12
+rect -18 8 -17 12
+rect 16 12 22 13
+rect 16 8 17 12
+rect 21 8 22 12
+rect 52 12 58 13
+rect 52 8 53 12
+rect 57 8 58 12
+<< pdiffusion >>
+rect -23 -11 -22 -7
+rect -18 -11 -17 -7
+rect -23 -12 -17 -11
+rect 16 -11 17 -7
+rect 21 -11 22 -7
+rect 16 -12 22 -11
+rect 52 -11 53 -7
+rect 57 -11 58 -7
+rect 52 -12 58 -11
+rect -23 -17 -17 -15
+rect -23 -21 -22 -17
+rect -18 -21 -17 -17
+rect 16 -17 22 -15
+rect 16 -21 17 -17
+rect 21 -21 22 -17
+rect 52 -17 58 -15
+rect 52 -21 53 -17
+rect 57 -21 58 -17
+<< ndcontact >>
+rect -22 17 -18 21
+rect 17 17 21 21
+rect 53 17 57 21
+rect -22 8 -18 12
+rect 17 8 21 12
+rect 53 8 57 12
+<< pdcontact >>
+rect -22 -11 -18 -7
+rect 17 -11 21 -7
+rect 53 -11 57 -7
+rect -22 -21 -18 -17
+rect 17 -21 21 -17
+rect 53 -21 57 -17
+<< polysilicon >>
+rect -34 13 -23 16
+rect -17 13 -14 16
+rect 5 13 16 16
+rect 22 13 25 16
+rect 41 13 52 16
+rect 58 13 61 16
+rect -34 9 -31 13
+rect -34 -12 -31 5
+rect 5 -12 8 13
+rect 41 9 44 13
+rect 41 -12 44 5
+rect -34 -15 -23 -12
+rect -17 -15 -11 -12
+rect 4 -15 16 -12
+rect 22 -15 28 -12
+rect 41 -15 52 -12
+rect 58 -15 64 -12
+rect 4 -20 8 -19
+<< polycontact >>
+rect -35 5 -31 9
+rect 40 5 44 9
+rect 4 -19 8 -15
+<< metal1 >>
+rect -27 21 70 25
+rect -40 5 -35 9
+rect 35 8 40 9
+rect -22 5 40 8
+rect -22 4 39 5
+rect 53 4 70 8
+rect -22 -7 -18 4
+rect 17 -7 21 -1
+rect -3 -11 17 -7
+rect 53 -7 57 4
+rect -3 -17 1 -11
+rect -23 -21 -22 -17
+rect -18 -21 1 -17
+rect 4 -23 8 -19
+rect 16 -21 17 -17
+rect 21 -21 53 -17
+rect 57 -21 64 -17
+<< end >>
