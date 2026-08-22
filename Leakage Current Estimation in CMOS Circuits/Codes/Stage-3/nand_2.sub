@@ -1,0 +1,22 @@
+.subckt nand_2 node_a node_b node_out vdd gnd
+
+.INCLUDE '32nm_HP.pm'
+.PARAM Lmin = 32n
+.PARAM nWmin = 64n
+.PARAM pWmin = 64n
+.PARAM Ldiff = 64n
+
+Mp1 node_out node_a vdd vdd pmos W={pWmin} L={Lmin} AS={pWmin*Ldiff} AD={pWmin*Ldiff} PS={2*(Ldiff+pWmin)} PD={2*(Ldiff+pWmin)}
+Mp2 node_out node_b vdd vdd pmos W={pWmin} L={Lmin} AS={pWmin*Ldiff} AD={pWmin*Ldiff} PS={2*(Ldiff+pWmin)} PD={2*(Ldiff+pWmin)}
+
+Mn1 node_out node_a node_x 0 nmos W={nWmin} L={Lmin} AS={nWmin*Ldiff} AD={nWmin*Ldiff} PS={2*(Ldiff+nWmin)} PD={2*(Ldiff+nWmin)}
+Mn2 node_x node_b 0 0 nmos W={nWmin} L={Lmin} AS={nWmin*Ldiff} AD={nWmin*Ldiff} PS={2*(Ldiff+nWmin)} PD={2*(Ldiff+nWmin)}
+
+* AS - source area
+* PS - source perimeter
+* AD - drain area
+* PD - drain perimeter
+
+.ends nand_2
+
+
