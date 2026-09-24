@@ -1,14 +1,18 @@
 # Projects
 
-A collection of my academic, research, and personal projects in electronics, VLSI, computer architecture, and embedded systems.
+A collection of my academic, research and personal projects in Digtial VLSI Design, Analog VLSI Design, Computer Architecture and IoT:
 
-## Projects
-
-* **4×4 Systolic Array Matrix Multiplier**
-* **Han-Carlson Adder**
-* **Radix-4 Booth Multiplier**
-* **Network-on-Chip (NoC) Simulation**
-* **Gem5-Based Computer Architecture Study**
-* **2.5D Thermal Modeling with Embedded Thermal Isolators**
-* **ESP32-Based Embedded System**
-* **VLSI Physical Design and Layout**
+* **32x32 SRAM Design in Cadence Virtuoso**
+* **4-bit ALU Design using Open Source Tools**
+* **4x4 Systolic Matrix Multiplication Engine**
+* **Audio Amplifier Design**
+* **Cache Address Encryption for Secure RISC-V Processor**
+* **Colpitts Oscillator Design**
+* **Leakage Current Estimation in CMOS Circuits**
+* **Logic BIST Implementation in Verilog**
+* **Neuromorphic Computing Accelerator**
+* **NoC Design for Transformer Accelerators**
+* **Quadrature Down Converter Design**
+* **Rail-to-Rail OTA Design in Cadence Virtuoso**
+* **UPS Downtime Detection**
+* **y86 Processor in Verilog**
